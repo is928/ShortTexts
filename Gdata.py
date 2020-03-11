@@ -6,8 +6,8 @@ for _1 in hs:
 d1 = {}
 d2 = {}
 for _ in range(len(l)):
-    d1[l[_]] = chr(10000+_)
-    d2[chr(10000+_)] = l[_]
+    d1[l[_]] = chr(20000+_)
+    d2[chr(20000+_)] = l[_]
 file = open('data.py','w')
 file.write('d1 = '+str(d1)+'\n')
 file.write('d2 = '+str(d2))
